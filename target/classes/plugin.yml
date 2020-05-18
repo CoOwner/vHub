@@ -1,0 +1,7 @@
+main: rip.visage.lobby.LobbyPlugin
+name: vLobby
+author: Manny
+description: 'Lobby, created for Visage Network'
+version: 1.0
+commands:
+  lives:

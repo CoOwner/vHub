@@ -1,0 +1,10 @@
+DATABASE:
+  MONGO:
+    DATABASE: "factions"
+    HOST: 127.0.0.1
+    PORT: 27017
+    AUTHENTICATION:
+      ENABLED: false
+      DATABASE: "admin"
+      USER: "root"
+      PASSWORD: "RawrXD"

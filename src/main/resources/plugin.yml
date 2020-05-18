@@ -1,0 +1,5 @@
+main: rip.vexus.lobby.LobbyPlugin
+name: Hub
+version: BETA
+commands:
+  lives:
