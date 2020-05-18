@@ -114,7 +114,7 @@ public class InventoryListener implements Listener {
 			if(e.getCurrentItem().getItemMeta().getDisplayName().contains("HCFactions")) {
 				if(profile.getDeathban() != null) {
 					if(profile.getLives().get(ProfileProtectionLifeType.SOULBOUND) <= 0) {
-						p.sendMessage(ChatColor.RED + "You do not have any lives. Purcahse them at store.visage.rip");
+						p.sendMessage(ChatColor.RED + "You do not have any lives. Purcahse them at store.vexus.rip");
 						return;
 					}
 						profile.getLives().put(ProfileProtectionLifeType.SOULBOUND, profile.getLives().get(ProfileProtectionLifeType.SOULBOUND) - 1);

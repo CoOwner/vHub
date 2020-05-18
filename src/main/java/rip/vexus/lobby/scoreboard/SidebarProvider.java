@@ -16,7 +16,7 @@ public abstract class SidebarProvider {
     public abstract List<SidebarEntry> getLines(final Player p0);
     
     static {
-        SCOREBOARD_TITLE = ChatColor.AQUA.toString() + ChatColor.BOLD + "Visage Network";
+        SCOREBOARD_TITLE = ChatColor.AQUA.toString() + ChatColor.BOLD + "Vexus Network";
         STRAIGHT_LINE = ChatColor.STRIKETHROUGH.toString() + Strings.repeat("-", 256).substring(0, 10);
     }
 }

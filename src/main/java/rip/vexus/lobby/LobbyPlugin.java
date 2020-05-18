@@ -87,8 +87,8 @@ public class LobbyPlugin extends JavaPlugin implements PluginMessageListener {
 			getLogger().severe("[LobbyPlugin] zPermissions cannot be found, Lobby plugin has been disabled.");
 			Bukkit.getPluginManager().disablePlugin(this);
 		}
-		 if (!new File("plugins/VisageSuite/config.yml").exists()) {
-	            Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN + "Visage Lobby - config.yml is being generated...");
+		 if (!new File("plugins/Hub/config.yml").exists()) {
+	            Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN + "vLobby - config.yml is being generated...");
 	            this.saveDefaultConfig();
 	            this.getConfig().options().copyDefaults(true);
 	            this.saveConfig();

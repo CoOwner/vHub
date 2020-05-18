@@ -137,16 +137,16 @@ public class PlayerListener implements Listener {
 		p.sendMessage(ChatColor.GRAY.toString() + ChatColor.STRIKETHROUGH + 
     "---------------------------------------------------");
 	    p.sendMessage(ChatColor.AQUA + "Welcome to the " + ChatColor.BOLD.toString() + ChatColor.BOLD + 
-	    	      "Visage Network");
+	    	      "Vexus Network");
 	    	    p.sendMessage("");
 	    	    p.sendMessage(ChatColor.AQUA + "Teamspeak" + ChatColor.DARK_RED + " " + ChatColor.WHITE + 
-	    	      "ts.visage.rip" + ChatColor.WHITE);
+	    	      "ts.vexus.rip" + ChatColor.WHITE);
 	    	    p.sendMessage(ChatColor.AQUA + "Twitter" + ChatColor.DARK_RED + " " + ChatColor.WHITE + 
-	    	      "twitter.com/VisageNetwork" + ChatColor.WHITE);
+	    	      "twitter.com/VexusNet" + ChatColor.WHITE);
 	    	    p.sendMessage(ChatColor.AQUA + "Website" + ChatColor.DARK_RED + " " + ChatColor.WHITE + 
-	    	      "www.visage.rip" + ChatColor.WHITE);
+	    	      "www.vexus.rip" + ChatColor.WHITE);
 	    	    p.sendMessage(ChatColor.AQUA + "Store" + ChatColor.DARK_RED + " " + ChatColor.WHITE + 
-	    	      "store.visage.rip" + ChatColor.WHITE);
+	    	      "buy.vexus.rip" + ChatColor.WHITE);
 	    	    p.sendMessage(ChatColor.GRAY.toString() + ChatColor.STRIKETHROUGH + 
 	    	    	    "---------------------------------------------------");
 		giveItems(e.getPlayer());

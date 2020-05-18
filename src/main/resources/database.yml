@@ -4,7 +4,7 @@ DATABASE:
     HOST: 127.0.0.1
     PORT: 27017
     AUTHENTICATION:
-      ENABLED: FALSE
+      ENABLED: false
       DATABASE: "admin"
-      USER: "visage-database-admin"
-      PASSWORD: "s4e+et4uwuceph+-UnuWr#6u"
+      USER: "root"
+      PASSWORD: "ganggangbangbang9321l0l0ltroll....."

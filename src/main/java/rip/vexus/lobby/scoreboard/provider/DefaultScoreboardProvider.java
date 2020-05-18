@@ -50,7 +50,7 @@ public class DefaultScoreboardProvider extends SidebarProvider {
 //        	lines.add(new SidebarEntry(ChatColor.AQUA.toString() + ChatColor.BOLD + "Death", "" + ChatColor.WHITE, DurationFormatter.(profile.getDeathban().get));
 //        }
         lines.add(new SidebarEntry("    "));
-        lines.add(new SidebarEntry(ChatColor.GRAY.toString() + "www.", "visage", ".rip"));
+        lines.add(new SidebarEntry(ChatColor.GRAY.toString() + "www.", "vexus", ".rip"));
         lines.add(new SidebarEntry(ChatColor.GRAY, ChatColor.STRIKETHROUGH + DefaultScoreboardProvider.STRAIGHT_LINE, DefaultScoreboardProvider.STRAIGHT_LINE));
         return lines;
     }
